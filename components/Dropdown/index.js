@@ -387,7 +387,7 @@ export default class Dropdown extends PureComponent {
       rippleColor: baseColor,
       shadeColor: baseColor,
       shadeOpacity,
-      ...props,
+      //...props,
       onPress: this.onSelect,
     };
 

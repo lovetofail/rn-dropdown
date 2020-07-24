@@ -199,7 +199,7 @@ class Autocomplete extends Component {
           />
           {loading && (
             <ActivityIndicator
-              style={[styles.spinner, spinnerStyle]}
+              style={[spinnerStyle]}
               size={spinnerSize}
               color={spinnerColor || theme.primary}
             />

@@ -150,7 +150,7 @@ class Autocomplete extends Component {
     clearTimeout(this.timer);
     this.setState({loading: false});
     if (this.dropdown.current) {
-      this.dropdown.current.close();
+      //this.dropdown.current.close();
     }
   }
 

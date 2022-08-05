@@ -78,7 +78,7 @@ class Autocomplete extends Component {
       }
     } else if (fetchDataUrl) {
       try {
-        const response = await get(fetchDataUrl, {q: inputValue});
+        const response = await get(fetchDataUrl, {search: inputValue});
         if (response.length && this.mounted) {
           this.setState({items: response, loading: false});
         } else {
